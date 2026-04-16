@@ -1,0 +1,90 @@
+[submodule "coding-agents/agent-harnesses/opencode"]
+	path = coding-agents/agent-harnesses/opencode
+	url = https://github.com/dz3ai/opencode.git
+[submodule "coding-agents/agent-harnesses/oh-my-openagent"]
+	path = coding-agents/agent-harnesses/oh-my-openagent
+	url = https://github.com/dz3ai/oh-my-openagent.git
+[submodule "coding-agents/agent-harnesses/claw-code"]
+	path = coding-agents/agent-harnesses/claw-code
+	url = https://github.com/dz3ai/claw-code.git
+[submodule "coding-agents/agent-harnesses/DeepCode"]
+	path = coding-agents/agent-harnesses/DeepCode
+	url = https://github.com/dz3ai/DeepCode.git
+[submodule "coding-agents/agent-harnesses/deepagents"]
+	path = coding-agents/agent-harnesses/deepagents
+	url = https://github.com/dz3ai/deepagents.git
+[submodule "coding-agents/agent-harnesses/deer-flow"]
+	path = coding-agents/agent-harnesses/deer-flow
+	url = https://github.com/dz3ai/deer-flow.git
+[submodule "coding-agents/agent-harnesses/OpenHarness"]
+	path = coding-agents/agent-harnesses/OpenHarness
+	url = https://github.com/dz3ai/OpenHarness.git
+[submodule "coding-agents/agent-harnesses/trae-agent"]
+	path = coding-agents/agent-harnesses/trae-agent
+	url = https://github.com/dz3ai/trae-agent.git
+[submodule "coding-agents/agent-harnesses/agents-claude"]
+	path = coding-agents/agent-harnesses/agents-claude
+	url = https://github.com/dz3ai/agents.git
+[submodule "coding-agents/cli-agents/claude-code"]
+	path = coding-agents/cli-agents/claude-code
+	url = https://github.com/dz3ai/claude-code.git
+[submodule "coding-agents/cli-agents/gemini-cli"]
+	path = coding-agents/cli-agents/gemini-cli
+	url = https://github.com/dz3ai/gemini-cli.git
+[submodule "coding-agents/cli-agents/qwen-code"]
+	path = coding-agents/cli-agents/qwen-code
+	url = https://github.com/dz3ai/qwen-code.git
+[submodule "coding-agents/cli-agents/kimi-cli"]
+	path = coding-agents/cli-agents/kimi-cli
+	url = https://github.com/dz3ai/kimi-cli.git
+[submodule "coding-agents/cli-agents/crush"]
+	path = coding-agents/cli-agents/crush
+	url = https://github.com/dz3ai/crush.git
+[submodule "coding-agents/agent-runtimes/openclaw"]
+	path = coding-agents/agent-runtimes/openclaw
+	url = https://github.com/dz3ai/openclaw.git
+[submodule "coding-agents/agent-runtimes/nanoclaw"]
+	path = coding-agents/agent-runtimes/nanoclaw
+	url = https://github.com/dz3ai/nanoclaw.git
+[submodule "coding-agents/agent-runtimes/ironclaw"]
+	path = coding-agents/agent-runtimes/ironclaw
+	url = https://github.com/dz3ai/ironclaw.git
+[submodule "coding-agents/agent-runtimes/zeroclaw"]
+	path = coding-agents/agent-runtimes/zeroclaw
+	url = https://github.com/dz3ai/zeroclaw.git
+[submodule "coding-agents/agent-runtimes/hermes-agent"]
+	path = coding-agents/agent-runtimes/hermes-agent
+	url = https://github.com/dz3ai/hermes-agent.git
+[submodule "coding-agents/agent-runtimes/nanobot"]
+	path = coding-agents/agent-runtimes/nanobot
+	url = https://github.com/dz3ai/nanobot.git
+[submodule "coding-agents/agent-runtimes/quantumclaw"]
+	path = coding-agents/agent-runtimes/quantumclaw
+	url = https://github.com/dz3ai/QuantumClaw.git
+[submodule "coding-agents/agent-runtimes/phantom"]
+	path = coding-agents/agent-runtimes/phantom
+	url = https://github.com/dz3ai/phantom.git
+[submodule "coding-agents/agent-runtimes/claw-ai-lab"]
+	path = coding-agents/agent-runtimes/claw-ai-lab
+	url = https://github.com/dz3ai/Claw-AI-Lab.git
+[submodule "coding-agents/tooling/superpowers"]
+	path = coding-agents/tooling/superpowers
+	url = https://github.com/dz3ai/superpowers.git
+[submodule "coding-agents/tooling/superpowers-lab"]
+	path = coding-agents/tooling/superpowers-lab
+	url = https://github.com/dz3ai/superpowers-lab.git
+[submodule "coding-agents/tooling/everything-claude-code"]
+	path = coding-agents/tooling/everything-claude-code
+	url = https://github.com/dz3ai/everything-claude-code.git
+[submodule "coding-agents/tooling/antigravity-awesome-skills"]
+	path = coding-agents/tooling/antigravity-awesome-skills
+	url = https://github.com/dz3ai/antigravity-awesome-skills.git
+[submodule "coding-agents/tooling/openskills"]
+	path = coding-agents/tooling/openskills
+	url = https://github.com/dz3ai/openskills.git
+[submodule "coding-agents/tooling/npxskills"]
+	path = coding-agents/tooling/npxskills
+	url = https://github.com/dz3ai/npxskills.git
+[submodule "coding-agents/tooling/repo2skill"]
+	path = coding-agents/tooling/repo2skill
+	url = https://github.com/dz3ai/repo2skill.git
