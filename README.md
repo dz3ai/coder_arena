@@ -20,15 +20,13 @@ coder_arena/
 
 ## Categories
 
-### 1. Agent Harnesses (9 projects)
+### 1. Agent Harnesses (7 projects)
 
 Complete frameworks for building and orchestrating AI agents:
 
 | Project | Language | Description |
 |---------|----------|-------------|
-| [opencode](coding-agents/agent-harnesses/opencode) | TypeScript | The open source coding agent |
 | [oh-my-openagent](coding-agents/agent-harnesses/oh-my-openagent) | TypeScript | The best agent harness (formerly oh-my-opencode) |
-| [claw-code](coding-agents/agent-harnesses/claw-code) | Rust | Fast repo built with oh-my-codex |
 | [DeepCode](coding-agents/agent-harnesses/DeepCode) | Python | Open Agentic Coding (Paper2Code, Text2Web, Text2Backend) |
 | [deepagents](coding-agents/agent-harnesses/deepagents) | Python | LangChain/LangGraph-based agent harness |
 | [deer-flow](coding-agents/agent-harnesses/deer-flow) | Python | Long-horizon SuperAgent with sandboxes, memory, tools |
@@ -52,13 +50,16 @@ Platforms and infrastructure for running AI agents:
 | [phantom](coding-agents/agent-runtimes/phantom) | TypeScript | AI co-worker with MCP server, persistent memory |
 | [claw-ai-lab](coding-agents/agent-runtimes/claw-ai-lab) | Python | One dashboard, an entire research team |
 
-### 3. CLI Agents (5 projects)
+### 3. CLI Agents (8 projects)
 
 Terminal-based coding assistants:
 
 | Project | Language | Description |
 |---------|----------|-------------|
 | [claude-code](coding-agents/cli-agents/claude-code) | Shell/TypeScript | Anthropic's agentic coding tool |
+| [opencode](coding-agents/cli-agents/opencode) | TypeScript | The open source AI coding agent |
+| [claw-code](coding-agents/cli-agents/claw-code) | Rust | Clean-room Claude Code rewrite |
+| [aider](coding-agents/cli-agents/aider) | Python | AI pair programmer in terminal |
 | [gemini-cli](coding-agents/cli-agents/gemini-cli) | TypeScript | Google Gemini-powered terminal agent |
 | [qwen-code](coding-agents/cli-agents/qwen-code) | TypeScript | Qwen-powered coding agent |
 | [kimi-cli](coding-agents/cli-agents/kimi-cli) | Python | Moonshot Kimi-powered CLI agent |
@@ -139,5 +140,5 @@ MIT
 
 ---
 
-*Last updated: 2026-04-15*
-*Total submodules: 27*
+*Last updated: 2026-05-05*
+*Total submodules: 31*

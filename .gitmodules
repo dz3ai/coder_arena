@@ -1,12 +1,6 @@
-[submodule "coding-agents/agent-harnesses/opencode"]
-	path = coding-agents/agent-harnesses/opencode
-	url = https://github.com/dz3ai/opencode.git
 [submodule "coding-agents/agent-harnesses/oh-my-openagent"]
 	path = coding-agents/agent-harnesses/oh-my-openagent
 	url = https://github.com/dz3ai/oh-my-openagent.git
-[submodule "coding-agents/agent-harnesses/claw-code"]
-	path = coding-agents/agent-harnesses/claw-code
-	url = https://github.com/dz3ai/claw-code.git
 [submodule "coding-agents/agent-harnesses/DeepCode"]
 	path = coding-agents/agent-harnesses/DeepCode
 	url = https://github.com/dz3ai/DeepCode.git
@@ -28,6 +22,15 @@
 [submodule "coding-agents/cli-agents/claude-code"]
 	path = coding-agents/cli-agents/claude-code
 	url = https://github.com/dz3ai/claude-code.git
+[submodule "coding-agents/cli-agents/claw-code"]
+	path = coding-agents/cli-agents/claw-code
+	url = https://github.com/dz3ai/claw-code.git
+[submodule "coding-agents/cli-agents/opencode"]
+	path = coding-agents/cli-agents/opencode
+	url = https://github.com/dz3ai/opencode.git
+[submodule "coding-agents/cli-agents/aider"]
+	path = coding-agents/cli-agents/aider
+	url = https://github.com/Aider-AI/aider.git
 [submodule "coding-agents/cli-agents/gemini-cli"]
 	path = coding-agents/cli-agents/gemini-cli
 	url = https://github.com/dz3ai/gemini-cli.git
