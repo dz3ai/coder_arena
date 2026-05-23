@@ -14,13 +14,14 @@ coder_arena/
 │   ├── agent-harnesses/     # Complete agent frameworks & orchestration
 │   ├── agent-runtimes/      # Agent execution platforms
 │   ├── cli-agents/          # Terminal-based coding agents
+│   ├── models/              # Open-weight coding LLMs
 │   └── tooling/             # Skills frameworks, performance tools
 └── README.md
 ```
 
 ## Categories
 
-### 1. Agent Harnesses (7 projects)
+### 1. Agent Harnesses (9 projects)
 
 Complete frameworks for building and orchestrating AI agents:
 
@@ -33,8 +34,10 @@ Complete frameworks for building and orchestrating AI agents:
 | [OpenHarness](coding-agents/agent-harnesses/OpenHarness) | Python | Open Agent Harness |
 | [trae-agent](coding-agents/agent-harnesses/trae-agent) | Python | LLM-based general purpose software engineering agent |
 | [agents](coding-agents/agent-harnesses/agents-claude) | C# | Intelligent automation for Claude Code |
+| [Open-AutoGLM](coding-agents/agent-harnesses/Open-AutoGLM) | Python | Zhipu AI deep-research + coding agent |
+| [ChatDev](coding-agents/agent-harnesses/ChatDev) | Python | Multi-agent software house (Tsinghua / OpenBMB) |
 
-### 2. Agent Runtimes (9 projects)
+### 2. Agent Runtimes (11 projects)
 
 Platforms and infrastructure for running AI agents:
 
@@ -49,8 +52,10 @@ Platforms and infrastructure for running AI agents:
 | [quantumclaw](coding-agents/agent-runtimes/quantumclaw) | JavaScript | AI agent runtime with knowledge graph brain |
 | [phantom](coding-agents/agent-runtimes/phantom) | TypeScript | AI co-worker with MCP server, persistent memory |
 | [claw-ai-lab](coding-agents/agent-runtimes/claw-ai-lab) | Python | One dashboard, an entire research team |
+| [coze-studio](coding-agents/agent-runtimes/coze-studio) | Go/TypeScript | ByteDance all-in-one AI agent development platform |
+| [hiagent-python-sdk](coding-agents/agent-runtimes/hiagent-python-sdk) | Python | ByteDance enterprise coding/service agent SDK |
 
-### 3. CLI Agents (8 projects)
+### 3. CLI Agents (9 projects)
 
 Terminal-based coding assistants:
 
@@ -64,8 +69,19 @@ Terminal-based coding assistants:
 | [qwen-code](coding-agents/cli-agents/qwen-code) | TypeScript | Qwen-powered coding agent |
 | [kimi-cli](coding-agents/cli-agents/kimi-cli) | Python | Moonshot Kimi-powered CLI agent |
 | [crush](coding-agents/cli-agents/crush) | Go | Glamourous agentic coding for all |
+| [copilot-cli](coding-agents/cli-agents/copilot-cli) | Go | GitHub Copilot CLI (ACP-compatible) |
 
-### 4. Tooling (8 projects)
+### 4. Models (3 projects)
+
+Open-weight coding LLMs:
+
+| Project | Org | Description |
+|---------|-----|-------------|
+| [DeepSeek-Coder](coding-agents/models/DeepSeek-Coder) | DeepSeek (深度求索) | Open coding LLM + agent |
+| [Kimi-K2](coding-agents/models/Kimi-K2) | Moonshot AI (月之暗面) | Open-weight coding model |
+| [GLM-5](coding-agents/models/GLM-5) | Zhipu AI (智谱 AI) | Open coding LLM + agent tools |
+
+### 5. Tooling (11 projects)
 
 Skills frameworks, performance optimization, and developer tools:
 
@@ -78,6 +94,26 @@ Skills frameworks, performance optimization, and developer tools:
 | [openskills](coding-agents/tooling/openskills) | TypeScript | Universal skills loader for AI coding agents |
 | [npxskills](coding-agents/tooling/npxskills) | TypeScript | Open agent skills tool |
 | [repo2skill](coding-agents/tooling/repo2skill) | Shell | Repository to Skill converter |
+| [coze-loop](coding-agents/tooling/coze-loop) | TypeScript | ByteDance agent evaluation framework |
+| [kimi-agent-sdk](coding-agents/tooling/kimi-agent-sdk) | TypeScript | Moonshot AI agent SDK |
+| [GLM-skills](coding-agents/tooling/GLM-skills) | Shell | Zhipu AI skills collection |
+
+## Closed-Source Watchlist
+
+Notable Chinese AI coding agents without open-source repos (tracked for awareness):
+
+| Project | Provider | Type |
+|---------|----------|------|
+| Qoder / QoderWork | Alibaba (阿里云) | Agentic IDE + enterprise edition |
+| 通义灵码 Tongyi Lingma | Alibaba (阿里云) | Coding LLM + IDE plugin |
+| 文心快码 Wenxin Code | Baidu (百度) | Code generation / review IDE plugin |
+| 秒哒 MiaoDa | Baidu (百度) | Code agent (90% auto-generation) |
+| 豆包编程助手 Doubao Coding | ByteDance (字节跳动) | IDE / VS Code plugin (aka MarsCode) |
+| Coze | ByteDance (字节跳动) | Low-code + agent builder |
+| 星火代码 SparkCode | iFlytek (科大讯飞) | Coding agent + multi-language |
+| 元宝 YuanBao | Tencent (腾讯) | WeChat/PC AI assistant (includes coding) |
+| WorkBuddy | Tencent (腾讯) | Enterprise coding/DevOps agent |
+| SkyAGI | Kunlun (昆仑万维) | Open-source coding agent |
 
 ## Goals
 
@@ -140,5 +176,5 @@ MIT
 
 ---
 
-*Last updated: 2026-05-05*
-*Total submodules: 31*
+*Last updated: 2026-05-23*
+*Total submodules: 43*

@@ -91,3 +91,36 @@
 [submodule "coding-agents/tooling/repo2skill"]
 	path = coding-agents/tooling/repo2skill
 	url = https://github.com/dz3ai/repo2skill.git
+[submodule "coding-agents/cli-agents/copilot-cli"]
+	path = coding-agents/cli-agents/copilot-cli
+	url = https://github.com/github/copilot-cli.git
+[submodule "coding-agents/agent-harnesses/Open-AutoGLM"]
+	path = coding-agents/agent-harnesses/Open-AutoGLM
+	url = git@github.com:zai-org/Open-AutoGLM.git
+[submodule "coding-agents/agent-runtimes/coze-studio"]
+	path = coding-agents/agent-runtimes/coze-studio
+	url = git@github.com:coze-dev/coze-studio.git
+[submodule "coding-agents/agent-runtimes/hiagent-python-sdk"]
+	path = coding-agents/agent-runtimes/hiagent-python-sdk
+	url = git@github.com:volcengine/hiagent-python-sdk.git
+[submodule "coding-agents/models/DeepSeek-Coder"]
+	path = coding-agents/models/DeepSeek-Coder
+	url = git@github.com:deepseek-ai/DeepSeek-Coder.git
+[submodule "coding-agents/models/Kimi-K2"]
+	path = coding-agents/models/Kimi-K2
+	url = git@github.com:MoonshotAI/Kimi-K2.git
+[submodule "coding-agents/models/GLM-5"]
+	path = coding-agents/models/GLM-5
+	url = git@github.com:zai-org/GLM-5.git
+[submodule "coding-agents/tooling/coze-loop"]
+	path = coding-agents/tooling/coze-loop
+	url = git@github.com:coze-dev/coze-loop.git
+[submodule "coding-agents/tooling/kimi-agent-sdk"]
+	path = coding-agents/tooling/kimi-agent-sdk
+	url = git@github.com:MoonshotAI/kimi-agent-sdk.git
+[submodule "coding-agents/tooling/GLM-skills"]
+	path = coding-agents/tooling/GLM-skills
+	url = git@github.com:zai-org/GLM-skills.git
+[submodule "coding-agents/agent-harnesses/ChatDev"]
+	path = coding-agents/agent-harnesses/ChatDev
+	url = git@github.com:OpenBMB/ChatDev.git
