@@ -19,6 +19,57 @@ coder_arena/
 └── README.md
 ```
 
+## Architecture: How the Categories Interact
+
+The 5 categories form a layered stack — each layer depends on the one below it:
+
+```
+┌─────────────────────────────────┐
+│         CLI Agents              │  End-user tools you type into
+│  (claude-code, aider, kimi-cli) │
+├─────────────────────────────────┤
+│       Agent Harnesses           │  Orchestration & multi-agent logic
+│  (AutoGLM, ChatDev, DeepCode)  │
+├─────────────────────────────────┤
+│       Agent Runtimes            │  Execution environment & lifecycle
+│  (hermes, openclaw, coze-studio)│
+├─────────────────────────────────┤
+│          Models                 │  The LLM "brain"
+│  (GLM-5, Kimi-K2, DeepSeek)    │
+├─────────────────────────────────┤
+│         Tooling                 │  Cross-cutting: skills, eval, optimization
+│  (superpowers, coze-loop)       │
+└─────────────────────────────────┘
+```
+
+### Layer Dependencies
+
+**Models → everything above**
+The LLM is the shared dependency. A CLI agent like `kimi-cli` calls Kimi-K2; `hermes-agent` can swap between GLM-5 and Kimi-K2 via provider config. Models are interchangeable — most projects in upper layers support multiple model backends.
+
+**Runtimes → harnesses & CLI agents**
+Runtimes provide the execution sandbox (process isolation, tool dispatch, file access, memory). A harness like `ChatDev` or `Open-AutoGLM` needs a runtime to actually run its agents.
+
+**Harnesses → CLI agents**
+Harnesses define the *how* (multi-agent coordination, tool selection, retry logic, workflow DAGs). CLI agents are typically a harness + TUI/REPL on top. For example, `claude-code` = Anthropic's harness + CLI interface; `ChatDev` = multi-agent harness (CEO + CTO + programmer roles) with no CLI — a framework you program against.
+
+**Tooling → all layers**
+- `superpowers` / `GLM-skills` / `openskills` — prompt/skill packs that enhance any agent above
+- `coze-loop` / `kimi-agent-sdk` — evaluation & SDK tools for measuring agent quality
+- `repo2skill` — converts repos into skills that any upper-layer agent can consume
+
+### Key Overlaps
+
+The boundaries are porous. A "runtime" that grows a REPL becomes a "CLI agent". A "CLI agent" that exposes delegation APIs becomes a "runtime". The categories are organizational convenience, not rigid walls.
+
+| Project | Primary category | Also acts as |
+|---------|-----------------|--------------|
+| coze-studio | Runtime | Harness (full platform with workflow builder) |
+| hermes-agent | Runtime | Harness (delegation, skills, cron) |
+| openclaw | Runtime | CLI agent (has a TUI) |
+| Open-AutoGLM | Harness | CLI agent (has its own agent loop) |
+| claw-code | CLI agent | Runtime (designed as platform) |
+
 ## Categories
 
 ### 1. Agent Harnesses (9 projects)
