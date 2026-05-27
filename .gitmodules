@@ -124,3 +124,6 @@
 [submodule "coding-agents/agent-harnesses/ChatDev"]
 	path = coding-agents/agent-harnesses/ChatDev
 	url = git@github.com:OpenBMB/ChatDev.git
+[submodule "coding-agents/cli-agents/DeepSeek-Reasonix"]
+	path = coding-agents/cli-agents/DeepSeek-Reasonix
+	url = git@github.com:esengine/DeepSeek-Reasonix.git

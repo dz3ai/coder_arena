@@ -106,7 +106,7 @@ Platforms and infrastructure for running AI agents:
 | [coze-studio](coding-agents/agent-runtimes/coze-studio) | Go/TypeScript | ByteDance all-in-one AI agent development platform |
 | [hiagent-python-sdk](coding-agents/agent-runtimes/hiagent-python-sdk) | Python | ByteDance enterprise coding/service agent SDK |
 
-### 3. CLI Agents (9 projects)
+### 3. CLI Agents (10 projects)
 
 Terminal-based coding assistants:
 
@@ -121,6 +121,7 @@ Terminal-based coding assistants:
 | [kimi-cli](coding-agents/cli-agents/kimi-cli) | Python | Moonshot Kimi-powered CLI agent |
 | [crush](coding-agents/cli-agents/crush) | Go | Glamourous agentic coding for all |
 | [copilot-cli](coding-agents/cli-agents/copilot-cli) | Go | GitHub Copilot CLI (ACP-compatible) |
+| [DeepSeek-Reasonix](coding-agents/cli-agents/DeepSeek-Reasonix) | TypeScript | DeepSeek-native coding agent, prefix-cache optimized |
 
 ### 4. Models (3 projects)
 
@@ -228,4 +229,4 @@ MIT
 ---
 
 *Last updated: 2026-05-23*
-*Total submodules: 43*
+*Total submodules: 44*
