@@ -127,3 +127,6 @@
 [submodule "coding-agents/cli-agents/DeepSeek-Reasonix"]
 	path = coding-agents/cli-agents/DeepSeek-Reasonix
 	url = git@github.com:esengine/DeepSeek-Reasonix.git
+[submodule "coding-agents/agent-harnesses/oh-my-claudecode"]
+	path = coding-agents/agent-harnesses/oh-my-claudecode
+	url = git@github.com:Yeachan-Heo/oh-my-claudecode.git

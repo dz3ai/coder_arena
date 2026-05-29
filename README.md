@@ -72,7 +72,7 @@ The boundaries are porous. A "runtime" that grows a REPL becomes a "CLI agent". 
 
 ## Categories
 
-### 1. Agent Harnesses (9 projects)
+### 1. Agent Harnesses (10 projects)
 
 Complete frameworks for building and orchestrating AI agents:
 
@@ -87,6 +87,7 @@ Complete frameworks for building and orchestrating AI agents:
 | [agents](coding-agents/agent-harnesses/agents-claude) | C# | Intelligent automation for Claude Code |
 | [Open-AutoGLM](coding-agents/agent-harnesses/Open-AutoGLM) | Python | Zhipu AI deep-research + coding agent |
 | [ChatDev](coding-agents/agent-harnesses/ChatDev) | Python | Multi-agent software house (Tsinghua / OpenBMB) |
+| [oh-my-claudecode](coding-agents/agent-harnesses/oh-my-claudecode) | TypeScript | Teams-first multi-agent orchestration for Claude Code |
 
 ### 2. Agent Runtimes (11 projects)
 
@@ -229,4 +230,4 @@ MIT
 ---
 
 *Last updated: 2026-05-23*
-*Total submodules: 44*
+*Total submodules: 45*
