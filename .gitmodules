@@ -130,3 +130,6 @@
 [submodule "coding-agents/agent-harnesses/oh-my-claudecode"]
 	path = coding-agents/agent-harnesses/oh-my-claudecode
 	url = git@github.com:Yeachan-Heo/oh-my-claudecode.git
+[submodule "coding-agents/cli-agents/kimi-code"]
+	path = coding-agents/cli-agents/kimi-code
+	url = git@github.com:MoonshotAI/kimi-code.git

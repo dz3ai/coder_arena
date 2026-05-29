@@ -107,7 +107,7 @@ Platforms and infrastructure for running AI agents:
 | [coze-studio](coding-agents/agent-runtimes/coze-studio) | Go/TypeScript | ByteDance all-in-one AI agent development platform |
 | [hiagent-python-sdk](coding-agents/agent-runtimes/hiagent-python-sdk) | Python | ByteDance enterprise coding/service agent SDK |
 
-### 3. CLI Agents (10 projects)
+### 3. CLI Agents (11 projects)
 
 Terminal-based coding assistants:
 
@@ -119,7 +119,8 @@ Terminal-based coding assistants:
 | [aider](coding-agents/cli-agents/aider) | Python | AI pair programmer in terminal |
 | [gemini-cli](coding-agents/cli-agents/gemini-cli) | TypeScript | Google Gemini-powered terminal agent |
 | [qwen-code](coding-agents/cli-agents/qwen-code) | TypeScript | Qwen-powered coding agent |
-| [kimi-cli](coding-agents/cli-agents/kimi-cli) | Python | Moonshot Kimi-powered CLI agent |
+| [kimi-cli](coding-agents/cli-agents/kimi-cli) | Python | Moonshot Kimi-powered CLI agent (legacy, → kimi-code) |
+| [kimi-code](coding-agents/cli-agents/kimi-code) | TypeScript | Moonshot next-gen coding agent (successor to kimi-cli) |
 | [crush](coding-agents/cli-agents/crush) | Go | Glamourous agentic coding for all |
 | [copilot-cli](coding-agents/cli-agents/copilot-cli) | Go | GitHub Copilot CLI (ACP-compatible) |
 | [DeepSeek-Reasonix](coding-agents/cli-agents/DeepSeek-Reasonix) | TypeScript | DeepSeek-native coding agent, prefix-cache optimized |
@@ -230,4 +231,4 @@ MIT
 ---
 
 *Last updated: 2026-05-23*
-*Total submodules: 45*
+*Total submodules: 46*
